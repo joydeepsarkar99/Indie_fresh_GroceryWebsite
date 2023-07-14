@@ -1,0 +1,320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* HEADER    */
+.header_flexbox
+{   
+    background-color: #2c462c;
+    color: #f4924b;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 4.2rem;
+}
+.header_logo
+{   
+    position: relative;
+    height:3.5rem;
+    width:22rem;
+    background-image: url("bg_image/Indie\ Fresh-logos.jpeg");
+   background-position: center;
+   background-size: cover;
+}
+.header_logo ion-icon 
+{   
+    position: absolute;
+    top: 15px;
+    left: 73px;
+    font-size: 35px;
+}
+.header_flex_content1
+{   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: center;
+    
+}
+.header_flex_content_list
+{   
+    display: inline-block;
+    padding:0px 12px;
+    margin-left: 6px;
+}
+.header_flex_content_list:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header_flex_content2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+.header_flex_content2_list
+{
+    display: inline-block;
+    padding: 0px 10px;
+}
+#header_cart{
+    height: 2.5rem;
+    text-align:end;
+   
+}
+#header_cart span{
+    font-size: 21px;
+    width: 8rem;  
+    
+} 
+#header_cart span:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#header_cart ion-icon{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+
+}
+ #header_signup{
+    
+    font-size: 16px;
+    width: 4rem;
+    border: none;
+    height: 23px;
+    border-radius: 2px;
+    background-color: #f4924b;
+    color: #2c462c;
+}
+#header_login{
+    font-size: 16px;
+    width: 4rem;
+    height: 23px;
+    border-radius: 2px;
+    border: none;
+    background-color: #f4924b;
+    color: #2c462c;
+} 
+#header_signup:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#header_login:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.info_h1{
+    font-family: 'Public Sans', sans-serif;
+    color:#2c462c ;
+    font-family: 'Tiro Bangla', serif;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 48px;
+    margin-bottom: 10px; 
+}
+.info_p1
+{
+    font-family: 'Satisfy', cursive;
+    color:#f4924b;
+    text-shadow:0px 0px black;
+    margin: 0px 150px;
+    font-size: 22px;
+    text-align: center;
+}
+.info_divider1{
+    width: 30vw;
+    color: black;
+    text-align: center;
+    margin: 20px auto;
+}
+.shop_heading_h3
+{   
+    font-family: 'Public Sans', sans-serif;
+    color: #2c462c;
+    text-align: center;
+    text-transform: uppercase;
+}
+.shop_content_grid{
+    margin: 15px 155px;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.grid_item
+{
+    border: 1px solid black;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    text-shadow: 0px solid black;
+    filter: brightness(90%);
+}
+.item1
+{
+    background-image: url("image/fruits.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.item2
+{
+    background-image: url("image/vegeis.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.item3
+{
+    background-image: url("image/meat.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.item4
+{
+    background-image: url("image/seeds.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.item5
+{
+    background-image: url("image/frozen.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.item6
+{
+    background-image: url("image/beverage.jpg");
+    background-position: bottom left;
+    background-size: cover;
+}
+.grid_item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(41, 40, 40);
+}
+.info_divider2{
+    width: 30vw;
+    color: black;
+    text-align: center;
+    margin: 63px auto 30px auto;
+}
+.footer_flex2
+{
+    margin: 20px 155px;
+    height: 38vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    list-style: none;
+}
+.flex2_content{
+    display: inline-block;
+    width: 300px;
+    height: 35vh;
+}
+.footer_flex2 lord-icon
+{
+    margin: 0px 73px;
+}
+.footer_flex2_heading
+{   
+    color: #2c462c;
+    font-family: 'Tiro Bangla', serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.footer_flex2_heading_paragraph{
+    color: #f4924b;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-shadow: 0px solid black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+}
+.footer_info_grid
+{   
+    height: 40vh;
+    margin: 20px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.footer_info_grid_content
+{   
+    margin-top: 30px;
+    width: 260px;
+    height: 35vh;
+    list-style: none;
+}
+.footer_info_grid_content_heading{
+    font-family: 'Tiro Bangla', serif;
+    color: #f4924b;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+}  
+.footer_info_grid li {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+.footer_info_grid li:hover
+{
+    cursor: default;
+    opacity: 0.6;
+}
+.social_media
+{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding-left: 87px;
+}
+.terms_condition
+{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.social_media:hover
+{
+    cursor: pointer;
+    color: #f4924b;
+}
+.chat lord-icon
+{
+    position: fixed;
+    bottom: 2px;
+    right: 11px; 
+}
+
