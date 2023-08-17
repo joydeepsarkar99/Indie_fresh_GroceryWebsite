@@ -1,5 +1,5 @@
 # Indie_fresh_GroceryWebsite
-A Grocery Website made using HTML & CSS.
+A Grocery Web Page made using HTML & CSS.
 
 -->BELOW ARE SOME ATTACHED SCREENSHOTS OF THE WEB PAGE :
 
